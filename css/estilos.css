@@ -1,0 +1,744 @@
+ @import url('https://fonts.googleapis.com/css2? family= Merriweather & display=swap');
+ 
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+/*COMIENZO DEL HEADER*/
+header{
+background-image: linear-gradient(to bottom, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
+position: fixed;
+top:0 ;
+left: 0;
+right: 0;
+height: 155px;
+z-index: 1;
+}
+
+
+nav > ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 50px;  
+    margin-left: 0%;  
+    margin-top: 0%;
+ }
+
+nav > ul > li {
+    display: inline-block;
+    position: relative;
+   
+ }
+
+nav > ul > li > a {     
+    text-decoration: none;
+    margin: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #e1da0f;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-top: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    color: rgb(10, 10, 10);
+    background-color: gold;
+    font-size: 1rem;
+    display: block;
+    
+}
+
+nav ul li a:hover {
+    background: #fbf9f9,;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    align-items: center;
+    transition: .4s ease-in;
+ }
+
+       
+.navegador2 ul {
+    text-align: right;
+    list-style-type: none;
+    margin-top: -10%;
+    margin-left: 0%;
+}
+
+.navegador2 ul li {
+     display: inline-block;
+     margin-top: -30px;
+     
+ }
+
+.navegador2 ul li a {
+    list-style-type: none;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-top: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    color: rgb(10, 10, 10);
+    background-color: gold;
+    font-size: 1rem;
+ }
+ .navegador2 ul li a:hover {
+    background: #145203, ;
+        box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+        transition: .4s ease-in;
+ }
+ nav ul li ul {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    background-color: rgb(255, 243, 240);
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    opacity: 0;
+    z-index: 1;
+    transition: all 300ms ease;
+    list-style-type: none;
+ }
+
+ nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+ }
+
+ nav ul li ul:before{
+    content:none ;
+    height: 0;
+    width: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: solid white;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+   
+ }
+ nav ul li ul a {
+    display: block;
+    color: gold;
+    padding: 6px;
+    padding-left:14px;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: all 300ms ease;
+
+
+ }
+ nav ul li ul a:hover{
+    background-color: gold;
+    color: rgb(6, 246, 6);
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    
+ }
+
+.logoproyecto {
+    width: 120px;
+    height: 120px;  
+    margin-top: -5%;
+    margin-left: 100px;
+} 
+
+     
+.infonutri {
+    margin-top: -7%;
+    padding-top: 0%; 
+    width: 180px;
+    margin-left: 12%;
+    height: 80px;
+    width: 250px;
+}
+/*FIN DEL HEADER*/
+
+/*COMIENZO DEL MAIN - PAGINA DE INICIO*/
+.main1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 1.webp);
+    background-color:rgba(11, 11, 11, 0.25);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    
+ }
+
+ .nutricion{
+    padding-top: 10%;
+ }
+
+.nutricion1 {
+    width: 500px;
+    margin-left: 37%;
+    margin-top: 8%;
+    font-size: 3rem;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+   
+}
+
+.nutricion2 {
+    width: 800px;
+    margin-left: 29.5%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify; 
+    display: flex; 
+    justify-content: space-between;  
+ }
+
+ .nutricion2 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;  
+    float: right;  
+    margin-left: 10%;  
+ }
+
+.main2 {
+    width: 100%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main3 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 3.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main4 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 4.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main5 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ verduras.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main6 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ frutas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main7 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ lacteos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main8 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ carne.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main9 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ grasas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main10 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ legumbres.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main11 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ aceite.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    margin: 8%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20vh;    
+}
+h3{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    margin: 8%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20vh;
+}
+.p1 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 0%;
+    margin: 0%;
+    font-weight: bold;
+    margin-bottom: 0vh;
+    text-align: justify;
+    } 
+
+.galeria{
+padding-top: -20%;
+
+
+}
+
+.galeria1 {
+    width: 35%;
+    height: 35%;
+    margin-left: 30%;
+    margin-top: 20%;  
+}
+
+.galeria2 {
+    width: 3%;
+    height: 98.5%;
+    margin-left: 27%;
+    margin-top: 0%;
+    background-color: #060606;
+}
+
+.galeria3 {
+    width: 3%;
+    height: 98.5%;
+    margin-right: 32%;
+    margin-top: 0%;
+    background-color: #060606;
+}
+
+.galeria4 {
+    background-color: #f6f603;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: center;
+    padding-bottom: 2%;
+    border-radius: 5%;
+}
+
+ /*PAGINA DE "NOSOTROS"*/
+
+
+ .testicuadro1 {
+  width: 600px;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding: 10px;
+  padding-bottom: 0px 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: rgb(218, 233, 104);
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.testicuadro2 {
+  width: 600px;
+  margin-left: 55%;
+  margin-top: -22.4%;
+  padding: 10px;
+  padding-bottom: 0px 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: rgb(218, 233, 104);
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.testicuadro3 {
+    width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 10px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  
+}   
+
+.testicuadro4 {
+    width: 600px;
+    margin-top: -31.5%;
+    padding: 10px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55%;  
+    
+}
+ .testicuadro5 {
+    padding-bottom: 8%;
+ }
+                 
+  .testimonio1 {
+    margin-left: 30%;
+    height: 220px;
+    width: 220px;
+  }
+
+ .testimonio2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align: center;
+ }
+
+ .testimonio3 {
+    font-size: 1.5rem;
+    text-align: center;
+ }
+/*pagina de "NOSOTROS"*/
+
+/*pagina de "INFORMACION"*/
+
+.video {
+    margin-left: 35%;
+    background-color: rgb(6, 6, 6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*pagina de "informacion"*/
+
+/*pagina de "IMC"*/
+
+.nutricion4 {
+    width: 1100px;
+    margin-left: 22%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nutricion4 img {
+    width: 420px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 3%;
+}
+
+.nutricion3 {
+    width: 1100px;
+    margin-left: 22%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nutricion3 img {
+    width: 420px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 3%;
+}
+.nutricion6{
+    width: 800px;
+    margin-top: 5%;
+    padding: 0px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 29.5%;
+}
+.imc1{
+    margin-left: 5%;
+
+}
+
+.imc2 {
+  padding-bottom: 5%;
+ }
+
+ button{
+    background-color: rgb(218, 233, 104);
+     border-radius: 5px;
+     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+     margin-left: 37%;
+     margin-top: 10%;
+     margin-bottom: 2%;
+     width: 200px;
+     height: 100px;
+     font-size: 1rem;
+     font-weight: bold;
+ }
+
+ .manzanaimc{
+    width: 250px;
+    height: 200px;
+    margin-left: 50%;
+    margin-bottom: 0%;   
+    margin-top: -80%;
+ }
+
+/*pagina de "IMC"*/
+
+/*pagina de "CONTACTO"*/
+
+.nutricion5{
+width: 800px;
+    margin-left: 29.5%;
+    margin-top: -5%;
+    padding: 0px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.tabla{
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    padding: 50px;
+    padding-top: 15px;
+    padding-left: 60px;
+    height: 400px;
+    width: 500px;
+    margin-left: 37%;
+    font-size: 1rem;
+    margin-top: 8%;
+    font-weight: bold;
+    
+}
+
+.tabla2 {
+    margin-left: 0%;
+    height:50px;
+    width: 380px;
+}
+.mensaje {
+    width: 380px;
+    height: 230px;
+    margin-left: 0%;
+}
+
+.boton2{
+    height: 50PX;
+    width: 100PX;
+    margin-left: 47%;
+    margin-top: 5%;
+}
+
+.mapa{
+    margin-left: 35%;
+    background-color: rgb(6, 6, 6);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/*FIN DEL MAIN*/
+
+/*COMIENZO DEL FOOTER*/
+footer{
+background-image: linear-gradient(to top, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
+width: -100px;
+}
+
+.red{
+margin-left: 1%;
+margin-bottom: -70px;
+list-style-type: none;  
+display:inline-block ;   
+}
+
+.red2 {
+    margin-left: 1%;
+    margin-bottom: -115px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.red3 {
+    margin-left: 1%;
+    margin-bottom: -145px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.copy {
+text-align: center;
+font-weight: bold;
+margin-bottom: 0%;
+}
+ 
+.logowpp {
+bottom: 30px;
+right: 30px;
+position: fixed;
+line-height: 55px;
+}
+
+.wpp{
+margin-left: 90%;
+list-style-type: none;
+position: fixed;
+bottom: 30px;
+right: 30px;
+position: fixed;
+line-height: 55px;
+}      
+      
+.navegador3 ul {
+text-align: center;
+padding-bottom: 20px;
+justify-content: space-between;
+}
+ 
+.navegador3 ul li{
+display: inline-block;
+ }
+   
+.navegador3 ul li a {
+padding-top: 0px;
+border-radius: 5px;
+font-weight: bold;
+border: 1px solid black;
+color: rgb(10, 10, 10);
+background-color: gold;
+font-size: 1rem;
+text-decoration: none;
+}
+    
+.navegador3 a:hover {
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
+    background: #145203, ;
+    align-items: center;
+}
+/*FIN DEL FOOTER*/
