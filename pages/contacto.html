@@ -57,24 +57,50 @@
             <h1 class="nutricion1">CONTACTATE CON NOSOTROS</h1>
         </div>
         <section>
-            <form data-aos="zoom-out" class="tabla">
-                <div>
-                    <input class="tabla2" type="text" placeholder="Nombre y apellido*" required>
+            <form class="row g-3 tabla">
+                
+                <div class="col-md-4 tabla2">
+                    <label for="validationServer01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control is-valid" id="validationServer01" required>
+                    <div class="valid-feedback">
+                    </div>
                 </div>
-                <br>
-                <div>
-                    <input class="tabla2" type="email" placeholder="Corre Electronico*" required>
+
+                <div class="col-md-4 tabla2">
+                    <label for="validationServer02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control is-valid" id="validationServer02"required>
                 </div>
-                <br>
-                <div>
-                    <input class="mensaje" type="message" placeholder="Mensaje..." required>
+
+                <div class="col-md-4 tabla2">
+                    <label for="validationServerUsername" class="form-label">Correo electronico</label>
+                    <div class="input-group has-validation">
+                    </div>
+                    <input type="text" class="form-control is-invalid" required>
                 </div>
+
+                <div class="col-md-4 tabla2">
+                    <label for="validationServerUsername" class="form-label">Ciudad</label>
+                    <div class="input-group has-validation"></div>
+                    <input type="text" class="form-control is-invalid" required>
+                </div>
+
+                <div class="col-md-4 tabla2">
+                    <label for="validationServerUsername" class="form-label">Pais</label>
+                    <div class="input-group has-validation">
+                    <input type="text" class="form-control is-invalid" required>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                
             </form>
-            <div>
-                 <a href="../index.html" target="_blank">
-                    <button class="animate__animated animate__pulse animate__infinite boton2">Enviar</button>
-                </a>
-            </div>
+                <div class="col-12 tabla3">
+                    <button class=" tabla4" type="submit">Enviar</button>
+                </div>
+            
         </section>        
         <section>
                 <div>

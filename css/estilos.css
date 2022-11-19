@@ -17,80 +17,52 @@ z-index: 1;
 }
 
 
-nav > ul {
+.nav1 {
     list-style-type: none;
     text-align: center;
     padding-top: 50px;  
-    margin-left: 0%;  
+    margin-left: 40%;  
     margin-top: 0%;
- }
 
-nav > ul > li {
-    display: inline-block;
-    position: relative;
-   
  }
+ 
 
-nav > ul > li > a {     
-    text-decoration: none;
-    margin: 25px;
-    font-weight: 600;
-    font-size: 15px;
-    color: #e1da0f;
-    padding-left: 10px;
-    padding-right: 40px;
-    padding-top: 0px;
-    padding-top: 0px;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    border: 1px solid black;
-    color: rgb(10, 10, 10);
-    background-color: gold;
-    font-size: 1rem;
-    display: block;
+.nav2{     
+    
     
 }
-
 nav ul li a:hover {
-    background: #fbf9f9,;
+    background: #fbf9f9, ;
     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
     align-items: center;
     transition: .4s ease-in;
- }
-
-       
-.navegador2 ul {
-    text-align: right;
-    list-style-type: none;
-    margin-top: -10%;
-    margin-left: 0%;
 }
 
-.navegador2 ul li {
-     display: inline-block;
-     margin-top: -30px;
-     
- }
+.nav3{
+    width: 300%;
+}
 
-.navegador2 ul li a {
-    list-style-type: none;
-    text-align: center;
-    font-weight: 600;
-    text-decoration: none;
-    padding-right: 50px;
-    padding-top: 0px;
-    border-radius: 5px;
-    font-weight: bold;
-    border: 1px solid black;
-    color: rgb(10, 10, 10);
-    background-color: gold;
-    font-size: 1rem;
- }
- .navegador2 ul li a:hover {
-    background: #145203, ;
-        box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
-        transition: .4s ease-in;
+.nav4 {
+    margin-top: -5%;
+}
+
+.nav5{
+    margin-left: 88%;
+    margin-top: 0%;
+    height: 10%;
+    width: 10%;
+}
+.nav6 {
+    margin-left: 88%;
+    margin-top: 0%;
+    height: 10%;
+    width: 10%;
+}
+
+.nav5:hover {
+    background: #145203;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
  }
  nav ul li ul {
     width: 200px;
@@ -150,13 +122,13 @@ nav ul li a:hover {
 .logoproyecto {
     width: 120px;
     height: 120px;  
-    margin-top: -5%;
+    margin-top: -10%;
     margin-left: 100px;
 } 
 
      
 .infonutri {
-    margin-top: -7%;
+    margin-top: -12%;
     padding-top: 0%; 
     width: 180px;
     margin-left: 12%;
@@ -349,7 +321,10 @@ h3{
     } 
 
 .galeria{
-padding-top: -20%;
+margin-left: 0%;
+padding-bottom: 10%;
+width: 100%;
+height: 100%;
 
 
 }
@@ -625,7 +600,7 @@ width: 800px;
     border-radius: 5px;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     padding: 50px;
-    padding-top: 15px;
+    padding-bottom: 40%;
     padding-left: 60px;
     height: 400px;
     width: 500px;
@@ -638,13 +613,27 @@ width: 800px;
 
 .tabla2 {
     margin-left: 0%;
+    margin-top: 5%;
     height:50px;
     width: 380px;
+    margin-bottom: 10%;
 }
-.mensaje {
-    width: 380px;
-    height: 230px;
-    margin-left: 0%;
+.tabla3{
+margin-left: 8%; margin-top: -5%;
+ 
+}
+
+.tabla4 {
+    background-color: rgb(218, 233, 104);
+     border-radius: 1PX;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.mensaje{
+    width: 100%;
+    height: 120%;
 }
 
 .boton2{
@@ -667,27 +656,28 @@ width: 800px;
 /*COMIENZO DEL FOOTER*/
 footer{
 background-image: linear-gradient(to top, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
-width: -100px;
+width: 100%;
+padding-bottom: 1%;
 }
 
 .red{
-margin-left: 1%;
-margin-bottom: -70px;
-list-style-type: none;  
-display:inline-block ;   
+    list-style-type: none;
+}
+.red1{
+    margin-left: 0%;
+    margin-bottom: -2%;
+    display:inline-block ;   
 }
 
 .red2 {
-    margin-left: 1%;
-    margin-bottom: -115px;
-    list-style-type: none;
+    margin-bottom: -6%;
+    margin-left: 0%;
     display: inline-block;
 }
 
 .red3 {
-    margin-left: 1%;
-    margin-bottom: -145px;
-    list-style-type: none;
+    margin-left: 0%;
+    margin-bottom: -10%;
     display: inline-block;
 }
 
@@ -695,6 +685,7 @@ display:inline-block ;
 text-align: center;
 font-weight: bold;
 margin-bottom: 0%;
+padding-bottom: -10%;
 }
  
 .logowpp {
