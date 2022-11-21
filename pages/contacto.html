@@ -56,11 +56,10 @@
                 </div>
             </div>
         </nav>
-        <div class="nav8">
-            <button class="nav9" type="submit">Ingresar</button>
-            <button class="nav10" type="submit">Registrate</button>
-        </div>
-    
+        <!--<div class="nav8">
+                    <button class="nav9" type="submit">Ingresar</button>
+                    <button class="nav10" type="submit">Registrate</button>
+        </div>-->
         <div>
             <a href="index.html"> <img class="logoproyecto" src="../assets/images/LOGO PAGINA.png"
                     alt="logo del proyecto"></a>
@@ -71,78 +70,85 @@
     
     </header>
     <main class="main4">
-      <div class="container">
               <div data-aos="zoom-out" class="nutricion">
               <h1 class="nutricion1">CONTACTATE CON NOSOTROS</h1>
               </div>
               <section>
-              <form class="row g-3 tabla">
-                
+            <div class="container-fluid">
+              <form data-aos="zoom-out" class="row g-3 tabla">
+                <img class="infonutri2" src="../assets/images/LETRA PAGINA.png" alt="logo formulario">
                 <div class="col-md-4 tabla2">
                     <label for="validationServer01" class="form-label">Nombre</label>
-                    <input type="text" class="form-control is-valid" id="validationServer01" required>
+                    <input type="text" class="form-control tabla5 " id="validationServer01" required>
                     <div class="valid-feedback">
                     </div>
                 </div>
 
                 <div class="col-md-4 tabla2">
                     <label for="validationServer02" class="form-label">Apellido</label>
-                    <input type="text" class="form-control is-valid" id="validationServer02"required>
+                    <input type="text" class="form-control tabla5" id="validationServer02"required>
                 </div>
 
                 <div class="col-md-4 tabla2">
                     <label for="validationServerUsername" class="form-label">Correo electronico</label>
-                    <div class="input-group has-validation">
+                    <div class="input-group has-validation ">
                     </div>
-                    <input type="text" class="form-control is-invalid" required>
+                    <input type="text" class="form-control tabla5" required>
                 </div>
 
                 <div class="col-md-4 tabla2">
                     <label for="validationServerUsername" class="form-label">Ciudad</label>
                     <div class="input-group has-validation"></div>
-                    <input type="text" class="form-control is-invalid" required>
+                    <input type="text" class="form-control tabla5" required>
                 </div>
 
                 <div class="col-md-4 tabla2">
                     <label for="validationServerUsername" class="form-label">Pais</label>
-                    <div class="input-group has-validation">
-                    <input type="text" class="form-control is-invalid" required>
+                    <div class="input-group has-validation tabla5">
+                    <input type="text" class="form-control" required>
                     </div>
                 </div>
                 
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <label for="exampleFormControlTextarea1" class="form-label ">Mensaje</label>
                     <textarea class="form-control mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 
             </form>
                 <div class="col-12 tabla3">
-                    <button class=" tabla4" type="submit">Enviar</button>
+                    <button class=" animate__animated animate__pulse animate__infinite tabla4" type="submit">Enviar</button>
             </div>
-      </div>
-        </section>        
+           </div>
+          
+        </div>
+        </section>  
+        <div data-aos="zoom-out" class="nutricion">
+            <h2 class="nutricion5">¿DONDE ENCONTRARNOS?</h2>
+        </div>
         <section>
-                <div>
-                    <div data-aos="zoom-out" class="nutricion">
-                        <h1 class="nutricion5">¿DONDE ENCONTRARNOS?</h1>
-                        <div data-aos="zoom-out" class="nutricion2">
-                            <div class="nutricion7">
-                                <P class="p1"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores minus quod
-                                cumque quae error harum cum vero earum excepturi esse, quam fugiat voluptatem ex necessitatibus,
-                                reiciendis, corporis quo velit!</P>
-                                <iframe data-aos="zoom-out" class="mapa"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.0424016986444!2d-64.20572168431214!3d-31.440499604565854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a25da84f2515%3A0x26b10a3741191269!2sEnrique%20Finocchietto%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1666753965938!5m2!1ses-419!2sar"
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
+            <div data-aos="fade-left"class="card nutricion7">
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.0424016986444!2d-64.20572168431214!3d-31.440499604565854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a25da84f2515%3A0x26b10a3741191269!2sEnrique%20Finocchietto%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1666753965938!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Córdoba Capital</h5>
+                    <p class="card-text">Direccion: Dr. Enrique Finochietto 751 Bº Parque Velez Sarsfield - CBA - CP: 5010
+                    </p>                    
                 </div>
-            <div>
-                
+            </div>
+        </section>   
+        <section>
+            <div data-aos="fade-right" class="card nutricion7">
+                <iframe class="mapa" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8569327565674!2d-58.44768438423669!3d-34.60777906522102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca122f0cc1a9%3A0x70dd3d7522c36b82!2sAv.%20D%C3%ADaz%20V%C3%A9lez%201163%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1669006459788!5m2!1ses-419!2sar" width="600" height="450" style="border:0;"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">C.A.B.A</h5>
+                    <p class="card-text">Direccion: Av. Díaz Vélez 1163 Bº Caballito - C.A.B.A. - CP: C1184</p>
+                </div>
             </div>
         </section>
-    
     </main>
     <footer>
         <section>
