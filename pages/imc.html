@@ -15,43 +15,60 @@
 </head>
 
 <body>
-    <header>
-         <nav>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="nosotros.html">NOSOTROS</a></li>
-                <li><a href="informacion.html">INFORMACION</a>
-                    <ul>
-                        <li><a href="../pages/verduras.html"></a>VERDURAS</li>
-                        <li><a href="../pages/frutas.html"></a>FRUTAS</li>
-                        <li><a href="../pages/carnes.html"></a>CARNES Y HUEVOS</li>
-                        <li><a href="../pages/lacteos.html"></a>LACTEOS</li>
-                        <li><a href="../pages/Legumbres.html"></a>LEGUMBRES, CEREALES Y HARINAS</li>
-                        <li><a href="../pages/frutossecos.html"></a>FRUTOS SECOS, ACEITES Y SEMILLAS</li>
-                        <li><a href="../pages/grasas.html"></a>GRASAS Y DULCES</li>
-                    </ul>
-                </li>
-                <li><a href="imc.html">IMC</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-         </nav> 
-        <div>
-         <nav class="navegador2">
-            <ul>
-                <!--Aqui colocare ventanas emergentes para cada uno-->
-                <li><a href="#">REGISTRATE</a></li>
-                <li><a href="#">INGRESAR</a></li>
-            </ul>
-         </nav>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid nav1">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item nav2">
+                        <a class="nav-link active" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item nav3">
+                        <a class="nav-link active" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown nav4">
+                        <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Grupos
+                        </a>
+                        <ul class="dropdown-menu nav5" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../pages/verduras.html">Verduras</a></li>
+                            <!--Aca solo colocare una pagina de informacion, para el proyecto final estaran todas-->
+                            <li><a class="dropdown-item" href="#">Frutas</a></li>
+                            <li><a class="dropdown-item" href="#">Carnes</a></li>
+                            <li><a class="dropdown-item" href="#">Lacteos</a></li>
+                            <li><a class="dropdown-item" href="#">Legumbres, cereales y harinas</a></li>
+                            <li><a class="dropdown-item" href="#">Frutos secos, aceites y semillas</a></li>
+                            <li><a class="dropdown-item" href="#">Grasas (opcionales)</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav6">
+                        <a class="nav-link active" href="../pages/imc.html">IMC</a>
+                    </li>
+                    <li class="nav-item nav7">
+                        <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <a href="../index.html" target="_blank">
-            <img class="logoproyecto" src="../assets/images/LOGO PAGINA.png" alt="logo del proyecto"></a>
-        </div>
-        <div>
-            <img class="infonutri" src="../assets/images/LETRA PAGINA.png" alt="Letra del logo">
-        </div>
-    </header>
+    </nav>
+    <div class="nav8">
+        <button class="nav9" type="submit">Ingresar</button>
+        <button class="nav10" type="submit">Registrate</button>
+    </div>
+
+    <div>
+        <a href="index.html"> <img class="logoproyecto" src="../assets/images/LOGO PAGINA.png"
+                alt="logo del proyecto"></a>
+    </div>
+    <div>
+        <a href="index.html"> <img class="infonutri" src="../assets/images/LETRA PAGINA.png" alt="Letra del logo"></a>
+    </div>
+
+</header>
     <main class="main3">
         <section>
             <div>
@@ -82,7 +99,7 @@
         <section>
             <div>
                 <a href="https://www.yazio.com/es/calculadora-imc" target="_blank">
-                <button class="animate__animated animate__pulse animate__infinite">CALCULA TU IMC</button>
+                <button class="animate__animated animate__pulse animate__infinite boton">CALCULA TU IMC</button>
                 </a>
                 <div class="imc2">
                     <img class="manzanaimc" src="../assets/images/IMAGENES IMC/imc-manzana.png" alt="icono manzana 2">
@@ -92,15 +109,15 @@
     </main>
     <footer>
         <section>
-            <ul>
-                <li><a href="https://www.facebook.com/" target="_blank">
-                        <img class="red" src="../assets/images/icono facebook.png" alt="Logo Facebook">
+            <ul class="red">
+                <li><a href="https://www.facebook.com//" target="_blank">
+                        <img class="red1" src="../assets/images/icono facebook.png" alt="Logo Facebook">
                     </a></li>
-        
+    
                 <li><a href="https://www.instagram.com/" target="_blank">
                         <img class="red2" src="../assets/images/icono instagram.png" alt="Logo Instagram">
                     </a></li>
-        
+    
                 <li></li><a href="https://twitter.com/" target="_blank">
                     <img class="red3" src="../assets/images/icono twitter.png" alt="logo twitter">
                 </a></li>
@@ -112,20 +129,32 @@
                 <img class="logowpp" src="../assets/images/icono wpp.png" alt="Logo whatsapp">
             </a>
         </section>
+    
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid nav11">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item nav12 ">
+                                <a class="nav-link active nav2" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item nav13">
+                                <a class="nav-link active nav2 " href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item nav14">
+                                <a class="nav-link active nav2" href="../pages/imc.html">IMC</a>
+                            </li>
+                            <li class="nav-item nav15">
+                                <a class="nav-link active nav2" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
         <div>
             <p class="copy">InfoNutri.com - todos los derechos reservados - Copyright © 2022</p>
         </div>
-        <section>
-            <nav class="navegador3">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./informacion.html">Informacion</a></li>
-                    <li><a href="./imc.html">Imc</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </section>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

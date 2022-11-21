@@ -12,24 +12,27 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
  </head>
- <body><!--LA PAGINA CONTARA CON MUCHAS MAS PAGINAS DE INFORMACION, EN ESTA ENTREGA INCLUI SOLO LAS CINCO MAS IMPORTANTES. ADEMAS TENDRA DOS PAGINAS EMERGENTES MAS QUE TAMPOCO INCLUI EN ESTA ENTREGA-->
+ <body>
     <header> 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid nav1 ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid nav1">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Inicio</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item nav2 ">
+                            <a class="nav-link active nav2" href="index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        <li class="nav-item nav3">
+                            <a class="nav-link active nav2" href="./pages/nosotros.html">Nosotros</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./pages/" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Grupos
-                            </a>
-                            <ul class="dropdown-menu nav3" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Verduras</a></li>
+                        <li class="nav-item dropdown nav4">
+                            <a class="nav-link dropdown-toggle active  nav2" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Grupos </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/verduras.html">Verduras</a></li> <!--Aca solo colocare una pagina de informacion, para el proyecto final estaran todas-->
                                 <li><a class="dropdown-item" href="#">Frutas</a></li>
                                 <li><a class="dropdown-item" href="#">Carnes</a></li>
                                 <li><a class="dropdown-item" href="#">Lacteos</a></li>
@@ -38,28 +41,28 @@
                                 <li><a class="dropdown-item" href="#">Grasas (opcionales)</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">IMC</a>
+                        <li class="nav-item nav6">
+                            <a class="nav-link active nav2" href="./pages/imc.html">IMC</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                        <li class="nav-item nav7">
+                            <a class="nav-link active nav2" href="./pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="nav4">
-            <button class="nav5" type="submit">Ingresar</button>
-            <button class="nav6" type="submit">Registrate</button>
+        <div class="nav8">
+            <button class="nav9" type="submit">Ingresar</button>
+            <button class="nav10" type="submit">Registrate</button>
         </div>
         
-            <div>
-                <a href="index.html" target="_blank">
-                <img class="logoproyecto" src="./assets/images/LOGO PAGINA.png" alt="logo del proyecto"></a>
-            </div>
-            <div>
-                <img class="infonutri" src="./assets/images/LETRA PAGINA.png" alt="Letra del logo"> 
-            </div>
+        <div>
+            <a href="index.html"> <img class="logoproyecto" src="./assets/images/LOGO PAGINA.png" alt="logo del proyecto"></a>
+        </div>
+        <div>
+            <a href="index.html"> <img class="infonutri" src="./assets/images/LETRA PAGINA.png" alt="Letra del logo"></a>
+        </div>
+             
     </header>
     <main class="main1">
         <section>
@@ -109,59 +112,68 @@
                </div>
             </div> 
         </section>
-        <section class="galeria">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner galeria1">
-                <div class="carousel-item active">
-                    <img src="./assets/images/IMAGENES INICIO/fondo carne.jpg" class="d-block w-100" alt="foto1">
-                    <h4 class="galeria4">CARNE</h4>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/IMAGENES INICIO/fondo verduras.jpg" class="d-block w-100" alt="foto2">
-                    <h4 class="galeria4">VERDURAS</h4>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/IMAGENES INICIO/fondo frutas.jpg" class="d-block w-100" alt="foto3">
-                    <h4 class="galeria4">FRUTAS</h4>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/IMAGENES INICIO/fondo lacteos.jpg" class="d-block w-100" alt="foto4">
-                    <h4 class="galeria4">LACTEOS</h4>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/IMAGENES INICIO/fondo aceite.jpg" class="d-block w-100" alt="foto5">
-                    <h4 class="galeria4">FRUTOS SECOS, ACEITES Y SEMILLAS</h4>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/IMAGENES INICIO/fondo legumbres.webp" class="d-block w-100" alt="foto6">
-                    <h4 class="galeria4">LEGUMBRES,CEREALES Y HARINAS</h4>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/IMAGENES INICIO/fondo grasas.jpg" class="d-block w-100" alt="foto7">
-                    <h4 class="galeria4">GRASAS (opcionales)</h4>
+        <section data-aos="fade-left" class="galeria"> 
+        <div class="card galeria1" style="width: 18rem;">
+            <img src="./assets/images/IMAGENES INICIO/fondo verduras.jpg" class="card-img-top" alt="foto verdura">
+            <div class="card-body">
+                <h5 class="card-title galeria2">Verduras</h5>
+                <a href="./pages/verduras.html" class="btn btn-primary galeria3">Ir</a>
+            </div>
+        </div>
+        </section>
+        <section data-aos="fade-right" class="galeria4">
+            <div class="card galeria1" style="width: 18rem;">
+                <img src="./assets/images/IMAGENES INICIO/fondo frutas.jpg" class="card-img-top" alt="foto frutas">
+                <div class="card-body">
+                    <h5 class="card-title galeria2">Frutas</h5>
+                    <a href="./pages/frutas.html" class="btn btn-primary galeria3">Ir</a>
                 </div>
             </div>
-            <button class="carousel-control-prev galeria2" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon galeria2" aria-hidden="true"></span>
-                <span class="visually-hidden galeria2">Previous</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
-                    class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5ZM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5Z" />
-                </svg>
-            </button>
-            <button class="carousel-control-next galeria3" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon galeria3" aria-hidden="true"></span>
-                <span class="visually-hidden galeria3">Next</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
-                    class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z" />
-                </svg>
-            </button>
-          </div>
+        </section>
+        <section data-aos="fade-left" class="galeria5">
+            <div class="card galeria1" style="width: 18rem;">
+                <img src="./assets/images/IMAGENES INICIO/fondo carne.jpg" class="card-img-top" alt="foto carnes">
+                <div class="card-body">
+                    <h5 class="card-title galeria2">Carnes</h5>
+                    <a href="./pages/carnes.html" class="btn btn-primary galeria3">Ir</a>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-right" class="galeria6">
+            <div class="card galeria1" style="width: 18rem;">
+                <img src="./assets/images/IMAGENES INICIO/fondo lacteos.jpg" class="card-img-top" alt="foto lacteos">
+                <div class="card-body">
+                    <h5 class="card-title galeria2">Lacteos</h5>
+                    <a href="./pages/lacteos.html" class="btn btn-primary galeria3">Ir</a>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-left" class="galeria7">
+            <div class="card galeria1" style="width: 18rem;">
+                <img src="./assets/images/IMAGENES INICIO/fondo legumbres.webp" class="card-img-top" alt="foto legumbres">
+                <div class="card-body">
+                    <h5 class="card-title galeria2">Legumbres, cereales, papa y harinas</h5>
+                    <a href="./pages/Legumbres.html" class="btn btn-primary galeria3">Ir</a>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-right" class="galeria8">
+            <div class="card galeria1" style="width: 18rem;">
+                <img src="./assets/images/IMAGENES INICIO/fondo aceite.jpg" class="card-img-top" alt="foto aceites">
+                <div class="card-body">
+                    <h5 class="card-title galeria2">Aceites, frutos secos y semillas</h5>
+                    <a href="./pages/frutossecos.html" class="btn btn-primary galeria3">Ir</a>
+                </div>
+            </div>
+        </section>
+        <section data-aos="zoom-out" class="galeria9">
+            <div class="card galeria1" style="width: 18rem;">
+                <img src="./assets/images/IMAGENES INICIO/fondo grasas.jpg" class="card-img-top" alt="foto grasas">
+                <div class="card-body">
+                    <h5 class="card-title galeria2">Grasas</h5>
+                    <a href="./pages/grasas.html" class="btn btn-primary galeria3">Ir</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -188,15 +200,26 @@
         </section>
 
         <section>
-            <nav class="navegador3">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./informacion.html">Informacion</a></li>
-                    <li><a href="./imc.html">Imc</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid nav11">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item nav12 ">
+                            <a class="nav-link active nav2" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item nav13">
+                            <a class="nav-link active nav2 " href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item nav14">
+                            <a class="nav-link active nav2" href="./pages/imc.html">IMC</a>
+                        </li>
+                        <li class="nav-item nav15">
+                            <a class="nav-link active nav2" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         </section> 
         <div>
             <p class="copy">InfoNutri.com - todos los derechos reservados - Copyright © 2022</p>
